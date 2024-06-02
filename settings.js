@@ -10,15 +10,15 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "2348102487241"
-global.ownername = "im ednut"
+global.ownernomer = "263784932864"
+global.ownername = "Taira Makino"
 global.ytname = "YT: Ednut001"
 global.socialm = "GitHub: Ednut001"
 global.location = "India, Mizoram, Aizawl"
 
-global.ownernumber = '2348102487241'  //creator number
-global.ownername = 'ednut himself' //owner name
-global.botname = 'ednut bug bot' //name of the bot
+global.ownernumber = "263784932864"  //creator number
+global.ownername = 'Taira Makino' //owner name
+global.botname = 'Xbug' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
@@ -29,14 +29,15 @@ global.themeemoji = '🪀'
 global.wm = "Ednut Bot Inc."
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20'
+global.link = 'https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K'
 
 //custom prefix
-global.prefa = ['','!','.','#','&']
+global.sessID = process.env.sessID || ""
+global.prefa = ['/']
 
 //false=disable and true=enable
 global.autoRecording = false //auto recording
-global.autoTyping = false //auto typing
+global.autoTyping = true //auto typing
 global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
 global.autobio = false //auto update bio
@@ -48,7 +49,7 @@ global.autoswview = false //auto view status/story
 //v2 is link + image menu,
 //v3 is video menu,
 //v4 is call end menu
-global.typemenu = 'v1'
+global.typemenu = 'v4'
 
 //text bug
 global.xbugtex = {
