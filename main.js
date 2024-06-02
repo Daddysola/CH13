@@ -43,7 +43,7 @@ const question = (text) => new Promise((resolve) => rl.question(text, resolve))
 async function startXeonBotInc() {
 //------------------------------------------------------
 let { version, isLatest } = await fetchLatestBaileysVersion()
-const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
+const {  state, saveCreds } =await useMultiFileAuthState(`./taira_baileys`)
     const msgRetryCounterCache = new NodeCache() // for retry message, "waiting message"
     const XeonBotInc = makeWASocket({
         logger: pino({ level: 'silent' }),
