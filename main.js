@@ -173,14 +173,15 @@ XeonBotInc.ev.on("connection.update",async  (s) => {
         if (connection == "open") {
         	console.log(chalk.magenta(` `))
             console.log(chalk.yellow(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2)))
-			await delay(1999)
+			/*await delay(1999)
             console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
 	        console.log(chalk.magenta(`\n${themeemoji} YT CHANNEL: Xeon`))
             console.log(chalk.magenta(`${themeemoji} GITHUB: DGXeon `))
             console.log(chalk.magenta(`${themeemoji} INSTAGRAM: @unicorn_xeon13 `))
             console.log(chalk.magenta(`${themeemoji} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${themeemoji} CREDIT: ${wm}\n`))
+            console.log(chalk.magenta(`${themeemoji} CREDIT: ${wm}\n`))*/
+		await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: 'Xeon Bug bot connected'})
         }
         if (
             connection === "close" &&
