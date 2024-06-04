@@ -10,13 +10,13 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "2349160878368"
+global.ownernomer = "263784932864"
 global.ownername = "Taira Makino"
 global.ytname = "YT: Ednut001"
 global.socialm = "GitHub: Anonphoenix007"
 global.location = "India, Mizoram, Aizawl"
 
-global.ownernumber = "2349160878368"  //creator number
+global.ownernumber = "263784932864"  //creator number
 global.ownername = 'Taira' //owner name
 global.botname = 'Xbug' //name of the bot
 
@@ -33,7 +33,7 @@ global.link = 'https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K'
 
 //custom prefix
 global.sessID = process.env.sessID || ""
-global.prefa = ['/']
+global.prefa = ['"']
 
 //false=disable and true=enable
 global.autoRecording = false //auto recording
